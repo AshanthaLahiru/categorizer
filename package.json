@@ -1,0 +1,29 @@
+{
+  "name": "categorizer",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Ashantha Lahiru <ashantha.lahiru@gmail.com>",
+  "license": "ISC",
+  "repository": "https://github.com/AshanthaLahiru/categorizer.git",
+  "scripts": {
+    "start": "probot run ./index.js",
+    "test": "jest && standard"
+  },
+  "dependencies": {
+    "probot": "^6.1.0",
+    "probot-commands": "^1.0.1"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "smee-client": "^1.0.1",
+    "standard": "^10.0.3"
+  },
+  "engines": {
+    "node": ">= 8.3.0"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  }
+}
